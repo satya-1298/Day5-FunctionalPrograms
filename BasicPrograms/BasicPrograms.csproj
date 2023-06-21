@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Compare.cs" />
     <Compile Include="Consonant.cs" />
     <Compile Include="Division.cs" />
     <Compile Include="Even.cs" />

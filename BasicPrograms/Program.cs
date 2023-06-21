@@ -11,7 +11,7 @@ namespace BasicPrograms
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basic Programs");
-            Console.WriteLine("Enter your choice");
+            Console.WriteLine("CHOOSE YOUR CHOICE FROM BELOW");
             Console.WriteLine("1-flipcoin");
             Console.WriteLine("2-LeadYear");
             Console.WriteLine("3-PowerOfTwo");
@@ -21,6 +21,7 @@ namespace BasicPrograms
             Console.WriteLine("7-SwapingNumbers");
             Console.WriteLine("8-Even.Odd");
             Console.WriteLine("9-Alphabets");
+            Console.WriteLine("10-ComparingThreeNumbers");
             
             int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
@@ -69,6 +70,11 @@ namespace BasicPrograms
                     Console.WriteLine("Consonants and vowels");
                     Consonant consonant=new Consonant();
                     consonant.Vowels();
+                    break;
+                case 10:
+                    Console.WriteLine("Comparing three numbers");
+                    Compare compare = new Compare();
+                    compare.Numbers();
                     break;
                 default:
                     Console.WriteLine("Entered Wrong choice");
