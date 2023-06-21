@@ -20,7 +20,7 @@ namespace BasicPrograms
             Console.WriteLine("6-Division");
             Console.WriteLine("7-SwapingNumbers");
             Console.WriteLine("8-Even.Odd");
-            Console.WriteLine("\n");
+            Console.WriteLine("9-Alphabets");
             
             int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
@@ -64,6 +64,11 @@ namespace BasicPrograms
                     Console.WriteLine("Even or odd Number");
                     Even even   = new Even();
                     even.Odd();
+                    break;
+                case 9:
+                    Console.WriteLine("Consonants and vowels");
+                    Consonant consonant=new Consonant();
+                    consonant.Vowels();
                     break;
                 default:
                     Console.WriteLine("Entered Wrong choice");
