@@ -8,7 +8,7 @@ namespace BasicPrograms
 {
     public class LeapYear
     {
-        public  void year()
+        public  void Year()
         {
             Console.WriteLine("Enter a year:");
             int y = int.Parse(Console.ReadLine());

@@ -8,7 +8,7 @@ namespace BasicPrograms
 {
     public class Power
     {
-        public  void oftwo()
+        public  void Oftwo()
         {
             Console.WriteLine("Enter a value:");
             int n = int.Parse(Console.ReadLine());
